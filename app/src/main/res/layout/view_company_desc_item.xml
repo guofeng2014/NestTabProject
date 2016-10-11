@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:orientation="vertical"
+        android:padding="10dip">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="公司介绍"
+            android:textColor="#000"
+            android:textSize="14dip" />
+
+        <TextView
+            android:id="@+id/tv_company_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:lineSpacingExtra="3dip"
+            android:text="公司介绍,公司成立于2012年夏天....在职员工达到200人,公司介绍,公司成立于2012年夏天....在职员工达到200人,公司介绍,公司成立于2012年夏天....在职员工达到200人,公司介绍,公司成立于2012年夏天....在职员工达到200人,"
+            android:textColor="#000"
+            android:textSize="14dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_app_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:background="#FFF"
+        android:orientation="vertical"
+        android:padding="10dip">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="产品介绍"
+            android:textColor="#000"
+            android:textSize="14dip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="65dip"
+                android:layout_height="65dip"
+                android:src="@mipmap/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="美团"
+                    android:textColor="#F00"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="口号"
+                    android:textColor="#F00"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="产品描述 "
+                    android:textColor="#F00"
+                    android:textSize="14dip" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="下载地址 http://www.meituan.com"
+                    android:textColor="#F00"
+                    android:textSize="14dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:background="#FFF"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dip">
+
+        <ImageView
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:text="马云 "
+            android:textColor="#F00"
+            android:textSize="12dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CEO"
+            android:textColor="#F00"
+            android:textSize="12dip" />
+
+    </LinearLayout>
+</LinearLayout>
